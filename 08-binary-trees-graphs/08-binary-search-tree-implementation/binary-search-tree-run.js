@@ -4,8 +4,8 @@ const { Node, BinarySearchTree } = require("./binary-search-tree");
 //       10
 //      /  \
 //     5    15
-//    /      \
-//   2        20
+//    /
+//   2
 
 const bst = new BinarySearchTree();
 
@@ -13,7 +13,7 @@ bst.insert(10);
 bst.insert(5);
 bst.insert(15);
 bst.insert(2);
-bst.insert(20);
+// bst.insert(20);
 
 bst.remove(10);
 
